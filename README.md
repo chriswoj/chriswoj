@@ -1,92 +1,64 @@
-# 👋 Hey, I'm Christopher Wojciech
+# Hey, I'm Chris
 
-Engineer • AI & Product Strategy Partner • Rapid Prototyper • Technology Advisor  
-I translate ambiguous ideas into running software (fast), help teams de‑risk AI initiatives, and keep an eye on the intersection of practicality and possibility.
+Principal AI Engineer · Multi-Agent Systems · Voice AI · Enterprise Automation
 
----
+I build production-grade AI systems that run in real enterprise environments — regulated, integrated with legacy stacks, and held to SLOs, not just demo standards. Currently focused on multi-agent orchestration, voice AI, and agentic document processing for automotive and industrial clients.
 
-## 🧠 Focus Areas
-
-- **AI Management & Delivery** – From shaping problem statements to iterating production-ready prototypes.
-- **Rapid Prototyping / MVP Acceleration** – Build → validate → refactor with intent (not just hacks).
-- **Technical Advisory** – Architecture sanity checks, tooling strategy, “should we even build this?” conversations.
-- **Human + Machine Collaboration** – Leveraging agents, automation, and augmentation without over‑engineering.
+Based in Germany. Building at [wojciech UG](https://wojciech.org).
 
 ---
 
-## 🛠️ Core Stack & Tools
+## What I'm Building
 
-| Layer | Highlights |
-|-------|------------|
-| Primary | .NET / C# |
-| Data / Intelligence | Python (AI/ML, automation, scripting) |
-| Front / Interaction | JavaScript & TypeScript (framework-agnostic, pragmatic) |
-| Patterns | Event-driven, lean microservices, composable backends |
-| Craft | Proofs of concept → hardened services, iteration discipline |
-| Ops Mindset | Observability, “build only what earns its keep” |
+**Voice AI Agents** — Production telephony bots with sub-second end-to-end latency. WebRTC/SIP integration, multi-turn conversation state, real-time streaming with backpressure handling and fault isolation. Handles inbound/outbound calls for automotive retail: vehicle lookup, CRM lead creation, call routing. Built on LiveKit, ElevenLabs, and OpenAI.
 
-### Skill Clusters
+**Agentic Document Automation** — PDF intake → OCR/text layer routing → multi-step LLM processing → structured, editable output matching legally required German vehicle documentation. Deterministic rule core with LLM-powered extraction, containerized deployment, SLO-based alerting.
 
-- AI project scoping & stakeholder alignment
-- Prototype-to-production decision pathways
-- Systems thinking & technical narrative
-- API & service design pragmatism
-- Automation + developer enablement
-- Lean validation loops
+**Multi-Agent Orchestration Platform** — Unified ChannelAdapter pattern across web, telephony, SMS, and WhatsApp. Tool registries via internal npm packages. Architecture built on Mastra and LangChain/LangGraph with PostgreSQL/pgvector. Formal ADRs for every major design decision.
 
 ---
 
-## 💡 Working Style
+## Stack
 
-I like:
-- Short feedback cycles over speculative roadmaps
-- Readable, evolvable code over “impressive” complexity
-- Sharpening constraints before expanding scope
-- Explaining tech in product language (and vice versa)
-
-I avoid:
-- “Just rewrite it” without scenario analysis
-- Tool worship (every abstraction has a half-life)
-- Adding AI because it “looks good in the deck”
-
----
-
-## 🔭 What I'm Currently Exploring
-
-- Lightweight, composable agent patterns (beyond monolithic orchestration)
-- AI-assisted refactoring loops / codebase intelligence
-- Declarative automation surfaces for domain experts
-- Hybrid human-in-the-loop workflows that don’t slow everything down
+```
+Languages        Python · TypeScript · C#
+AI/ML            LangChain · LangGraph · Mastra · Semantic Kernel · LlamaIndex
+Voice            LiveKit · ElevenLabs · Telnyx · WebRTC/SIP
+Backend          FastAPI · Next.js · Node.js
+Data             PostgreSQL · pgvector · BigQuery · Supabase
+Infrastructure   Docker · Vercel · Azure · GCP
+Patterns         Multi-agent orchestration · RAG · Event-driven · RESTful APIs
+```
 
 ---
 
-## 📬 Connect
+## Background
 
-- 🌐 Website: [wojciech.org](https://wojciech.org)
-- 💼 LinkedIn: [Christopher Wojciech](https://www.linkedin.com/in/christopher-wojciech/)
-- 📧 Email: [chris@wojciech.org](mailto:chris@wojciech.org)
+25 years across the stack. Started coding at 12. Sitecore MVP 2008 (one of the first globally). Three years in international tech pre-sales at Sitecore across EMEA. Co-founded an AI startup (transformers/NLP). Led Data & AI at Macaw, building and managing a 6-person engineering team serving enterprise clients including Siemens, Knorr-Bremse, and Metro Digital. ML work since 2013.
 
----
-
-## 🤝 How to Engage
-
-| Need | How I Can Help |
-|------|----------------|
-| “We have an AI idea—now what?” | Clarify feasibility, outline a lean validation path |
-| Prototype stuck / drifting | Diagnose scope drag & refocus deliverables |
-| Tech direction uncertainty | Stack + architecture decision support |
-| Want velocity without tech debt chaos | Guardrails + iteration rhythms |
+I've shipped software for every layer — from CMS architectures and .NET enterprise systems to ML forecasting algorithms and real-time voice agents. The through-line is building things that work in production, not just in notebooks.
 
 ---
 
-## 🌱 Personal Touch
+## How I Work
 
-I enjoy exploring unconventional workflows, building tooling that removes toil, and revisiting earlier assumptions to see what’s now trivially solvable. Curiosity > stagnation.
+Short feedback cycles over speculative roadmaps. Readable, evolvable code over clever complexity. Constraints sharpened before scope expands. Working software over slideware.
 
-> “Shipping something small today beats architecting something ‘perfect’ you never deploy.”
+I think like an engineer, communicate like a human, and have enough deployment scars to know where the real problems hide.
 
 ---
 
-If you’ve got something interesting brewing—AI, automation, or a gnarly prototype—reach out. Always open to smart collaboration.
+## Currently Exploring
 
-Thanks for stopping by! 👋
+- Composable agent patterns beyond monolithic orchestration
+- Claude API tool use and function calling for enterprise agent workflows
+- Voice AI latency optimization at the transport layer
+- Evaluation frameworks for production agent systems
+
+---
+
+## Connect
+
+- [wojciech.org](https://wojciech.org)
+- [LinkedIn](https://www.linkedin.com/in/christopher-wojciech/)
+- [chris@wojciech.org](mailto:chris@wojciech.org)
